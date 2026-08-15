@@ -1,0 +1,75 @@
+.hii{
+    font-size: 50px;
+    font-weight: 800;
+    display: inline-block;
+    margin-top: 145px;
+    margin-bottom: 5px;
+    font-family: tahoma;
+    color: rgb(29, 91, 225)
+}
+.frontend{
+    font-size: 30px;
+    color: rgb(29, 91, 225)
+}
+.description{
+    width: 500px;
+    text-align: justify;
+    font-family: tahoma;
+    color: rgb(166, 167, 167);
+    line-height: 1.6;
+}
+.mail{
+    width: 50px;
+    height: 50px;
+    padding-right: 12px;
+}
+.upwork{
+    width: 50px;
+    height: 50px;
+    padding-right: 12px;
+}
+.fiver{
+    width: 50px;
+    height: 50px;
+    padding-right: 14px;
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    padding-right: 12px;
+}
+.recent{
+    background-color:rgb(29, 91, 225);
+    color: rgb(20, 20, 20);
+    border-style: none;
+    width: 200px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom:  10px;
+    margin-top: 10px; 
+    font-family: tahoma;
+    font-size:20px;
+    border-radius: 10px;
+}
+.recent:hover {color:rgb(29, 91, 225); background-color: rgb(20, 20, 20);}
+.recent:hover{transition-duration: 0.5s;}
+.pfp{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left :930px;
+    top:250px;
+    border-radius: 125px;
+}
+body{
+    background-color: rgb(19, 19, 18);
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+}

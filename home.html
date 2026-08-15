@@ -1,99 +1,123 @@
 <!DOCTYPE html>
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <title>Humprhey Portfolio</title>
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="skill.css"> 
      </head>
         <body>
-            <nav>
-                <a href="home.html"> Home</a> 
-                <a href="About.html">About</a>
-                <a href="Skill.html">Skills</a>
-                <a href="Project.html">Project</a>
-                <a href="Contact.html"> Contact</a>
+            <nav class="nav">
+                <a href="#home"><button class="allbut">Home</button></a> 
+                <a href="#About"><button class="allbut">About</button></a>
+                <a href="#Skill"><button class="allbut">Skills</button></a>
+                <a href="#Project"><button class="allbut">Project</button></a>
+                <a href="#Contact"> <button class="allbut">Contact</button></a>
             </nav>
-            <div>
-                <p> Hi, I'm Humphrey Maduka</p>
-                <p> Frontend Web Developer, Computer Science Student</p>
-                <p> i'm a highly keen and interested person in web development and 
-                    always want to mae a unique website, I make
-                    practical use of problem solving skill and i work effectively in team work,
-                    which i beleive will aid me in my career progression along side with 
-                    resiliance which aid me in continiously improving my skills and build modern and
-                    reiable project i'm given
+            <div id="home" class="intro">
+                <p class="hii"> Hi, I'm Humphrey Maduka</p>
+                <p class="frontend"> Frontend Web Developer, Computer Science Undergraduate</p>
+                <p class="description"> I am a highly keen and interested person in web development and I have
+                    always wanted to make a unique website, I make
+                    practical use of my problem solving skill and I work effectively in teams,
+                    which I beleive will aid me in my career progression along side with 
+                    resiliance which will also aid me in continiously improving my skills and build modern and build
+                    reliable project I will be given to work on.
                 </p>
-                <div>
-                    <a href="https://mail.google.com/mail/u/1/#inbox"><img src="gmail.png"></a>
-                <a href="https://www.upwork.com/freelancers/~01f6e09c4b61f67893">><img src="upwork.png"></a>
-                <a href="https://www.fiverr.com/humphrey988/buying?source=avatar_menu_profile"><img src="fiver.png"></a>
-                <a  href="https://wa.link/egcyun"><img src="whatsapp.jpg"></a>
+                <div class="imagecontact">
+                    <a href="https://mail.google.com/mail/u/1/#inbox"><img class="mail" src="All images/mail.jpg"></a>
+                <a href="https://www.upwork.com/freelancers/~01f6e09c4b61f67893"><img class="upwork" src="All images/upwork.png"></a>
+                <a href="https://www.fiverr.com/humphrey988/buying?source=avatar_menu_profile"><img class="fiver" src="All images/fiver.png"></a>
+                <a href="https://wa.link/egcyun"><img class="whatsapp" src="All images/whatsapp.jpg"></a>
                 </div>
             </div>
             <div>
-                <button> View recent Work</button>
+                <button class="recent"> View recent Work</button>
             </div>
             <div>
-                <img src="Profile picture.png" alt="A picture of Humphrey">
+                <img class="pfp" src="All images/Profile picture.png" alt="A picture of Humphrey">
             </div>
              <div>
-           <div>
-            <p>About Me</p>
+           <div id="About">
+            <p class="bout">About Me</p>
            </div> 
         </div>
-        <img src="Profile picture.png">
-        <p>Who I am</p>
-        <p> I am an underggraduate of Covenant university, Ota, Oggun state, Nigeria. I am studyin computer science 
+        <p class="title">Who I am</p>
+        <div class="evybout">
+            <div class="imgcontain">
+            <img class="secpfp" src="All images/Profile picture.png">
+            </div>
+       <div class="contain">
+        <p class="whomi"> I am an underggraduate of Covenant university, Ota, Oggun state, Nigeria. I am studyin computer science 
             over a timeline of four years, i started my journey into computer science at a young age of 14, i learnt the basics
             which were HTML and CSS, and at this stage I have progrssed into, git, github and figma, and will soon learn and understand javascript
             which i believe will aid in my study in the university and will boost my Curriculum Vitae "CV", I use my problem solvingg sills and my ability to quicly analyse
             issue in real life to fix and continously upgrade myself in web development and in my desired proffesion, software engineering, along side with my ability 
-            to work together in teams, without little or no areguement in the projects we set such as calculator apps, portfolios. As i delve further I'll make much more nigger project by myself and as a team.
+            to work together in teams, without little or no arguement in the projects we set such as calculator apps, portfolios. As i delve further I'll make much more nigger project by myself and as a team.
         </p>
-        <p> Skills/Tech Stack</p>
+       </div> 
+        </div>
+        <div id="Skill">
+            <p class="skill"> Skills/Tech Stack</p>
+        </div>
         <div>
             <div>
-                 Codes and program I have learnt.
             </div>
-            <img src="html.png">
-            <img src="css.png">
-            <img src="git.png">
-            <img src="github.jpg">
-        </div>
-         <div>
-            <div>
-                <p>PROECTS ACCOMPILSHED</p>
-            <p>Here are the few project i have accomplished so far, some project are currently under development.</p>
-            </div>
-            <div>
-                <img src="todo app.png" alt="">
-                <img src="ecommerce.jpg" alt="">
-                <img src="portfolio.jpg" alt="">
-                <img src="bookings.jpg" alt="">
-            </div>
-            <div>
-                <button>View more</button>
+            <div class="allimgskill">
+                <img class="imgskill" src="All images/html.png">
+            <img class="imgskill" src="All images/css.png">
+            <img class="imgskill" src="All images/git.png">
+            <img class="imgskill" src="All images/github.jpg">
             </div>
         </div>
          <div>
-            <div>
-                <p>CONTACT ME</p>
-            <p> I am always open and avaible for new ideas and project, feel free to reach out to me to ask me about any website or idea you have, i will glady answer you.</p>
+            <div id="Project">
+                <p class="accom">PROECTS ACCOMPILSHED</p>
+                <p class="here">Here are the projects I have completed so far</p>
+            <div class="allpro">
+                <img class="pro" src="All images/todo app.png" alt="">
+                <img class="pro" src="All images/ecommerce.jpg" alt="">
+                <img class="pro" src="All images/portfolio.jpg" alt="">
             </div>
-              <div>
-                    <a href="https://mail.google.com/mail/u/1/#inbox"><img src="gmail.png"></a>
-                <a href="https://www.upwork.com/freelancers/~01f6e09c4b61f67893">><img src="upwork.png"></a>
-                <a href="https://www.fiverr.com/humphrey988/buying?source=avatar_menu_profile"><img src="fiver.png"></a>
-                <a  href="https://wa.link/egcyun"><img src="whatsapp.jpg"></a>
+            <div class="more">
+                <button class="view">View more</button>
+            </div>
+        </div>
+         <div>
+            <div id="Contact">
+            </div>
+            <div class="allcontact">
+                     <p class="con">CONTACT ME</p>
+            <p class="open"> I am always open and avaible for new ideas and project, feel free to reach out to me to 
+                ask me about any website or idea you have, i will glady answer you.</p>
+                 <div>
+                    <a href="https://mail.google.com/mail/u/1/#inbox"><img class="mmail" src="All images/gmail.png"></a>
+                <a href="https://www.upwork.com/freelancers/~01f6e09c4b61f67893"><img class="upwork" src="All images/upwork.png"></a>
+                <a href="https://www.fiverr.com/humphrey988/buying?source=avatar_menu_profile"><img class="fiver" src="All images/fiver.png"></a>
+                <a  href="https://wa.link/egcyun"><img class="whatsapp" src="All images/whatsapp.jpg"></a>
                 </div>
-                <div>
-                    <img src="phone.png"> <p>+2347081315676</p>
-                    <img src="mail.jpg"> <p>kamsin.maduka@gmail.com</p>
+                <div class="phonenumber">
+                   <div class="containnumber">
+                    <img class="phone" src="All images/phone.png"> <p class="number">+2347081315676</p>
+                   </div> 
+                    <div class="containmail">
+                        <img class="myemail" src="All images/mail.jpg"> <p class="mainmail">kamsin.maduka@gmail.com</p>
+                    </div>
                 </div>
-                <div>
-                    <input type="text" placeholder="Your name">
-                    <input type="text" placeholder="Your Email">
-                    <input type="text" placeholder="Description">
-                    <button>Send text</button>
+                 </div>
+                <div class="messageme">
+                    <input class="placeholder" type="text" placeholder="Your name">
+                    <input class="placeholder" type="text" placeholder="Your Email">
+                    <input class="descri" type="text" placeholder="Description">
+                    <button class="hold">Send text</button>
                 </div>
         </div>
+           <div class="copy">
+            <p class="copyright"> 2026 Humphrey All Right Reserved.</p>
+           </div>
         </body>
 </html>

@@ -1,0 +1,17 @@
+.skill{
+     color: rgb(29, 91, 225);
+     text-align: center;
+     font-size: 45px;
+     font-weight: 700;
+     margin-top: 180px;
+}
+.imgskill{
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+}
+.allimgskill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

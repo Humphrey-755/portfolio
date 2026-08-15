@@ -1,0 +1,136 @@
+.con{
+    font-size: 50px;
+    font-weight: 800;
+    color:rgb(29, 91, 225);
+}
+.open{
+    color: rgb(166, 167, 167);
+    font-size:20px;
+    width: 500px;
+}
+.mmail{
+    width: 50px;
+    height: 50px;
+    padding-right: 12px;
+}
+.upwork{
+    width: 50px;
+    height: 50px;
+    padding-right: 12px;
+}
+.fiver{
+    width: 50px;
+    height: 50px;
+    padding-right: 14px;
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    padding-right: 12px;
+}
+.myemail{
+    width: 25px;
+    height: 25px;
+    padding-top: 18px;
+}
+.phone{
+    width: 25px;
+    height: 25px;
+    padding-top: 18px;
+}
+.mainmail{
+    font-size: 20px;
+    color:rgb(29, 91, 225);
+    padding-left: 12px;
+}
+.number{
+    color:rgb(29, 91, 225);
+    font-size: 20px;
+    padding-left: 12px;
+}
+.containnumber{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    vertical-align: text-bottom;
+}
+.containmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    vertical-align: text-bottom;
+}
+.messageme{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    margin-top: -350px;
+    margin-right: 150px;
+
+}
+.allcontact{
+     display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+.placeholder{
+    width: 350px;
+    height:30px ;
+    font-family: tahoma;
+    padding-bottom:5px;
+    padding-top: 5px;
+    background-color: rgb(20, 20, 20);
+    border-width: 0px;
+    color:rgb(29, 91, 225);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border-style: solid;
+}
+.descri{
+    width: 350px;
+    height:130px ;
+    font-family: tahoma;
+    padding-bottom:5px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(20, 20, 20);
+    border-width: 0px;
+    color:rgb(29, 91, 225);
+    border-radius: 4px;
+    border-style: solid;
+}
+.hold{
+    width: 350px;
+    height:35px ;
+    font-family: tahoma;
+    padding-bottom:5px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(20, 20, 20);
+    border-width: 0px;
+    color:rgb(29, 91, 225);
+    border-radius: 4px;
+    border-style: solid;
+}
+.hold:hover{
+    background-color:rgb(29, 91, 225); color:rgb(20, 20, 20);border-width: 3px; 
+}
+.hold:hover{
+    transition-duration: .5s;
+}
+.descri:hover{
+    border-color:rgb(29, 91, 225) ; transition-duration: .5s; border-width: 3px;
+}
+.placeholder:hover{
+    border-color:rgb(29, 91, 225) ; transition-duration: 0.5s; border-width: 3px;
+}
+.copyright{
+    margin-top: 400px;
+    color: rgb(117, 118, 120);
+    font-family: tahoma;
+    font-size: 25px;
+    text-align: center;
+    background-color:rgb(29, 91, 225);
+    
+}

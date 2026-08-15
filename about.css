@@ -1,0 +1,57 @@
+.bout{
+    color: rgb(29, 91, 225);
+    text-align: center;
+    font-size: 50px;
+    font-family: tahoma;
+    font-weight: 800;
+
+}
+.title{
+    color: rgb(29, 91, 225);
+    text-align: center;
+    font-size: 50px;
+    font-family: tahoma;
+    margin-top: 1px;
+    margin-right: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 1px;
+    font-weight: 700;
+    position: absolute;
+    top: 730px;
+    left: 670px;
+}
+.whomi{
+    width: 500px;
+    align-items: center;
+    text-align: justify;
+    font-family: tahoma;
+    color: rgb(166, 167, 167);
+    line-height: 1.6;
+}
+.secpfp{
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    border-width: 5px;
+    box-shadow: inset 1px;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.imgcontain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.evybout{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 130px;
+}

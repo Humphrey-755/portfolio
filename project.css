@@ -1,0 +1,49 @@
+.accom{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: tahoma;
+    color: rgb(29, 91, 225);
+}
+.here{
+    font-size: 20px;
+    font-family: tahoma;
+    color: rgb(166, 167, 167);
+}
+.pro{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    border-width: 5px;
+    padding-right: 5px;
+}
+.allpro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 900px;
+    margin-left: 150px;
+    gap: 50px;
+}
+.view{
+    background-color:rgb(29, 91, 225);
+    color: rgb(20, 20, 20);
+    border-style: none;
+    width: 200px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom:  10px;
+    margin-top: 70px; 
+    font-family: tahoma;
+    font-size:20px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: block;
+    margin-left: 485px;
+    }
+.view:hover {color:rgb(29, 91, 225); background-color: rgb(20, 20, 20);}
+.view:hover{transition-duration: 0.5s;}
+
+

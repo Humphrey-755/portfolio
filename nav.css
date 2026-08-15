@@ -1,0 +1,25 @@
+.nav{
+    background-color: rgb(36, 36, 36);
+    opacity: 0.5;
+    border-radius: 300px;
+    width: 410px;
+    height: 50px;
+    margin-left: 405px;
+    text-decoration: none;
+    position: fixed;
+    margin-top: 15px;
+}
+.allbut:hover{ color: rgb(29, 91, 225);}
+.allbut:hover{transition-duration: 0.5s;}
+.allbut:hover{cursor: pointer;}
+.allbut{
+    border-style: none;
+    font-weight: 600;
+    font-family: Tahoma, 'Trebuchet MS';
+    background-color: rgb(36, 36, 36);
+    color: white;
+    position: relative;
+    padding-top: 7px;
+    margin-top: 12px;
+    margin-left: 19px;
+}
